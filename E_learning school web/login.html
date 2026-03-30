@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login | DELAC BC EL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body class="form-page">
+    <div class="overlay"></div>
+    
+    <div class="container">
+        <div class="form-card">
+            <div class="shield-small">DBP</div>
+            <h2 class="form-title">Student Login</h2>
+            <p style="color: #f4e4bc; margin-bottom: 20px;">Access your classes and library.</p>
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="text" id="loginID" placeholder="Student ID (e.g. DELAC-001)" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="loginPass" placeholder="Password" required>
+                </div>
+                <p id="loginError" class="error-text">❌ Incorrect ID or Password.</p>
+                
+                <button type="submit" class="btn enroll">Sign In</button>
+            </form>
+            
+            <div class="form-footer">
+                <a href="enroll.html">New Student? Enroll Here</a>
+                <br><br>
+                <a href="index.html" class="view-courses">← Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="auth-logic.js"></script>
+</body>
+</html>

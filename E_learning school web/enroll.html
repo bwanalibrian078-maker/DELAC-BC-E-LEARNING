@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment | DELAC BC EL</title>
+    <link rel="stylesheet" href="style.css"> <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body class="form-page">
+    <div class="overlay"></div>
+    
+    <div class="container">
+        <div class="form-card">
+            <h2 class="form-title">Student Enrollment</h2>
+            <p>Join the DELAC BC EL community today.</p>
+            
+            <form id="enrollForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="date" placeholder="Date of birth" required>
+                <select required>
+                    <option gender="" disabled selected>Select your gender</option>
+                    <option gender="male">male</option>
+                    <option gender="female">female</option>
+                </select>
+                <select required>
+                    <option class="" disabled selected>Select Your Class</option>
+                    <option class="1">Form 1</option>
+                    <option class="2">Form 2</option>
+                    <option class="3">Form 3</option>
+                    <option class="4">Form 4</option>
+                </select>
+                <input type="phone number" placeholder="Phone number" required>
+                <button type="submit" class="btn enroll">Submit Application</button>
+            </form>
+            <a href="index.html" class="view-courses">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

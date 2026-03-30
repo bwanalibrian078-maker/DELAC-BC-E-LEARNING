@@ -1,0 +1,35 @@
+.form-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--gold);
+    width: 100%;
+    max-width: 450px;
+    z-index: 5;
+}
+
+.form-title {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    margin-bottom: 20px;
+}
+
+#enrollForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+#enrollForm input, #enrollForm select {
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--gold);
+    color: white;
+    border-radius: 5px;
+}
+
+#enrollForm input::placeholder {
+    color: var(--cream);
+}
